@@ -7,6 +7,8 @@
 #include <string>
 using namespace std;
 
+// Given two strings that are single digit numbers, either a digit or written out, and a character representing an operand
+// returns a string describing the result of the operand
 string calculate(string number1, string number2, string operand) {
     // declarations
     double hold1, hold2, result;
